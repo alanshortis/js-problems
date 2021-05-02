@@ -14,12 +14,12 @@ Install dependencies:
 Within each problem's folder, there are three files:
 
 - **problem.js** contains a brief description of the problem to be solved, and an empty function in which to add your solution.
-- **test.js** contains Jest tests to verify that your solution does expected. You don't have to look in here to solve the problems, but tests act as another layer of documentation of the function being written. You can also add tests if you feel that a scenario is not properly covered.
+- **test.js** contains Jest tests to verify that your solution does what's expected. You don't have to read the tests to solve the problems, but tests act as another layer of documentation of the function being written so it's worth getting familiar with them.
 - **solution.js** contains at least one solution to the problem. Try not to look in here until you've written your own solution or you're really stuck.
 
 ## Running tests
 
-To verify that your solutions do what's expected, tests are run against `problem.js` for each problem.
+To verify that your solutions do what's expected, tests are run against `problem.js` for each problem. Tests will fail for each problem until a passing solution is added.
 
 - To run tests for a specific problem on save: `jest <folder name>/test.js --watch`.
 - To run tests for all problems: `jest`.
