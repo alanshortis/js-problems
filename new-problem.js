@@ -40,6 +40,6 @@ rl.question("🤔   \x1B[34mWhat's the name of the problem? \033[37m", title => 
 });
 
 rl.on('close', () => {
-  console.log('🎉   \x1b[32mFolder and files created!');
+  console.log('😁   \x1b[32mFolder and files created!');
   process.exit(0);
 });
