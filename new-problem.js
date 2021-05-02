@@ -6,16 +6,14 @@ const readline = require('readline');
 
 const problem = title => `// ${title} (add more of a description here)
 
-function fnName() {
-  return true;
-}
+function fnName() {}
 
 module.exports = fnName;
 `;
 
 const test = title => `const fnName = require('./problem.js');
 
-test('${title} function is defined', () => {
+test('${title}: function is defined', () => {
   expect(fnName).toBeDefined();
 });
 `;
