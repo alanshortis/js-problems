@@ -6,7 +6,9 @@ const readline = require('readline');
 
 const problem = title => `// ${title} (add more of a description here)
 
-function fnName() {}
+function fnName() {
+  return true;
+}
 
 module.exports = fnName;
 `;
