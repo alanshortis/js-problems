@@ -1,6 +1,6 @@
 # JavaScript problems
 
-> Data Structures and Algorithms in JavaScript, for practice or interview prep.
+> Data Structures and Algorithms in JavaScript, for practice or interview prep. Very in progress.
 
 ## Set up
 
@@ -30,6 +30,6 @@ To add a new problem to the repo, there is a small CLI to help create the requir
 
 ## Problems
 
-| Problem | Description |
-| ------- | ----------- |
-|         |             |
+| Problem    | Description                                                                                                                                         |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Palindrome | A palindrome is a word or phrase that can be read the same forwards and backwards. Write a function to determine if a given string is a palindrome. |
