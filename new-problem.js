@@ -15,8 +15,8 @@ module.exports = fnName;
 
 const test = title => `const fnName = require('./problem.js');
 
-test('${title}: test condition', () => {
-  expect(fnName()).toBe(true);
+test('${title} function is defined', () => {
+  expect(fnName).toBeDefined();
 });
 `;
 
