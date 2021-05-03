@@ -1,11 +1,12 @@
-// A utility for adding a new problem - creates required folder and files.
-
 const fs = require('fs');
 const path = require('path');
 const readline = require('readline');
 
-const problem = title => `// ${title} (add more of a description here)
-
+const problem = title => `/**
+* ${title}.
+* @param {string} str - The argument passed.
+* @returns {string} The return value.
+*/
 function fnName() {}
 
 module.exports = fnName;
@@ -25,17 +26,17 @@ const rl = readline.createInterface({
 
 rl.question("🤔   \x1B[34mWhat's the name of the problem? \033[37m", title => {
   const slug = encodeURIComponent(title.split(' ').join('-').toLowerCase());
+  const location = path.join(__dirname, `/${slug}`);
 
   if (fs.existsSync(slug)) {
     console.error('🤬   \x1b[33mProblem/folder already exists!');
     process.exit(1);
   }
 
-  fs.mkdirSync(path.join(__dirname, `/${slug}`));
-
-  fs.writeFileSync(path.join(__dirname, `/${slug}/problem.js`), problem(title));
-  fs.writeFileSync(path.join(__dirname, `/${slug}/solution.js`), '');
-  fs.writeFileSync(path.join(__dirname, `/${slug}/test.js`), test(title));
+  fs.mkdirSync(location);
+  fs.writeFileSync(`${location}/problem.js`, problem(title));
+  fs.writeFileSync(`${location}/solution.js`, '');
+  fs.writeFileSync(`${location}/test.js`, test(title));
   rl.close();
 });
 
