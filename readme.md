@@ -14,7 +14,7 @@ Install dependencies:
 Within each problem's folder, there are three files:
 
 - **problem.js** contains a brief description of the problem to be solved, and an empty function in which to add your solution.
-- **test.js** contains Jest tests to verify that your solution does what's expected. You don't have to read the tests to solve the problems, but tests act as another layer of documentation of the function being written so it's worth getting familiar with them.
+- **test.js** contains Jest tests to verify that your solution does what's expected. It's a good idea to read the tests before starting to get a better idea of the expectations rather than making assumptions from the description.
 - **solution.js** contains at least one solution to the problem. Try not to look in here until you've written your own solution or you're really stuck.
 
 ## Running tests
@@ -30,6 +30,7 @@ To add a new problem to the repo, there is a small CLI to help create the requir
 
 ## Problems
 
-| Problem    | Description                                                                                                                                         |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Palindrome | A palindrome is a word or phrase that can be read the same forwards and backwards. Write a function to determine if a given string is a palindrome. |
+| Problem         | Description                                                                                                                                         |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Palindrome      | Write a function to determine if a given string is a palindrome. A palindrome is a word or phrase that can be read the same forwards and backwards. |
+| Reverse Integer | Write a function that reverses an integer while retaining its sign (positive/negative).                                                             |
