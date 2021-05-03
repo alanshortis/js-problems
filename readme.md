@@ -30,8 +30,9 @@ To add a new problem to the repo, there is a small CLI to help create the requir
 
 ## Problems
 
-| Problem               | Description                                                                                                                                         |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Most Common Character | Write a function to determine which character in a given string appears the most times.                                                             |
-| Palindrome            | Write a function to determine if a given string is a palindrome. A palindrome is a word or phrase that can be read the same forwards and backwards. |
-| Reverse Integer       | Write a function that reverses an integer while retaining its sign (positive/negative).                                                             |
+| Problem               | Description                                                                                                                                                |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| FizzBuzz              | Write a function that logs numbers from 1 to n. For multiples of three log 'Fizz', for multiples of five log 'Buzz', for multiples of both log 'FizzBuzz'. |
+| Most Common Character | Write a function to determine which character in a given string appears the most times.                                                                    |
+| Palindrome            | Write a function to determine if a given string is a palindrome. A palindrome is a word or phrase that can be read the same forwards and backwards.        |
+| Reverse Integer       | Write a function that reverses an integer while retaining its sign (positive/negative).                                                                    |
